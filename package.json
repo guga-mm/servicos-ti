@@ -1,0 +1,27 @@
+{
+  "name": "servicosti",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 80 --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@api/clickup": "file:.api/apis/clickup",
+    "date-fns": "^4.1.0",
+    "js-cookie": "^3.0.5",
+    "next": "15.2.3",
+    "pocketbase": "^0.25.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
